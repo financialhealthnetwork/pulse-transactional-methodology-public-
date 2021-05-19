@@ -82,7 +82,7 @@ accounts to the Pulse platform.
 
 **Image 3. Prompt for linking less common accounts**
 
-<img src="https://github.com/financialhealthnetwork/pulse-transactional-methodology-public-/blob/main/pic3.png.png" width="500" />
+<img src="https://github.com/financialhealthnetwork/pulse-transactional-methodology-public-/blob/main/pic3.png" width="500" />
 
 **Data Security**
 
@@ -358,7 +358,7 @@ definitions of the most commonly used metrics in Table 3.
 
 #### **Table 3. Definitions of Metrics**
 
-<img src="https://github.com/financialhealthnetwork/pulse-transactional-methodology-public-/blob/main/pic4.png.PNG" width="1000" />
+<img src="https://github.com/financialhealthnetwork/pulse-transactional-methodology-public-/blob/main/pic4.png" width="1000" />
 
 ## VII. Study Limitations
 
