@@ -351,7 +351,7 @@ common.
 
 ## VI. Transactional Metric Definitions
 
-We typically use specific transacitonal “metrics” to analyze trends in
+We typically use specific transactional “metrics” to analyze trends in
 the Pulse transactional dataset. These metrics align with the
 transactional subsamples described in section IV. We describe the
 definitions of the most commonly used metrics in Table 3.
