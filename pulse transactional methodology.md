@@ -1,12 +1,16 @@
 Financial Health Pulse - Transactional Data Methodology Overview
 ================
 
-*Updated: May 2021*
+*Updated: August 2021*
 
 This document provides an in-depth explanation of the methodology used
 to collect and analyze transactional data in the Financial Health Pulse.
 If you have any questions or would like to discuss further, please
 contact us at: <pulse@finhealthnetwork.org>.
+
+To see the 2020 Financial Health Pulse Trends Report Methodology
+Supplement, visit [this
+link](https://s3.amazonaws.com/cfsi-innovation-files-2018/wp-content/uploads/2018/10/07161756/2020-Pulse-Trends-Report-Methodology-Supplement-Oct-2020.pdf)
 
 ## I. Pulse Overview
 
@@ -82,7 +86,7 @@ accounts to the Pulse platform.
 
 **Image 3. Prompt for linking less common accounts**
 
-<img src="https://github.com/financialhealthnetwork/pulse-transactional-methodology-public-/blob/main/pic3.png" width="500" />
+<img src="https://github.com/financialhealthnetwork/pulse-transactional-methodology-public-/blob/main/pic3.png.png" width="500" />
 
 **Data Security**
 
@@ -110,15 +114,15 @@ savings accounts, and credit cards linked most frequently.
 
 | Account Type                                                                           | Number of individuals with Linked Accounts | Average Balance, EOD ($) |
 | :------------------------------------------------------------------------------------- | -----------------------------------------: | -----------------------: |
-| Checking Account                                                                       |                                        851 |                  1050.85 |
-| Savings Account                                                                        |                                        609 |                   703.75 |
-| Credit Card                                                                            |                                        539 |                  6771.90 |
-| Any Loan                                                                               |                                        282 |                  3332.23 |
-| Brokerage/Investment Account (401k, IRAs, and other retirement or investment accounts) |                                        196 |                  9492.53 |
-| Other                                                                                  |                                        188 |                     3.11 |
-| Money Market Account                                                                   |                                         33 |                  5489.01 |
-| Cash Management                                                                        |                                         12 |                   977.18 |
-| Prepaid                                                                                |                                          9 |                     3.71 |
+| Checking Account                                                                       |                                        866 |                  1074.77 |
+| Savings Account                                                                        |                                        623 |                   710.78 |
+| Credit Card                                                                            |                                        543 |                  6809.14 |
+| Any Loan                                                                               |                                        286 |                  3266.40 |
+| Brokerage/Investment Account (401k, IRAs, and other retirement or investment accounts) |                                        192 |                  9492.53 |
+| Other                                                                                  |                                        190 |                     5.00 |
+| Money Market Account                                                                   |                                         32 |                  6533.96 |
+| Cash Management                                                                        |                                         13 |                   440.00 |
+| Prepaid                                                                                |                                          9 |                     3.68 |
 
 In order to assess the alignment between self-reported account ownership
 and accounts linked on the Pulse platform, we compare survey results
@@ -135,13 +139,13 @@ our analysis on liquid accounts and credit cards.
 
 | Account Type                                                                                                         | % of Study Participants who Linked an Account |
 | :------------------------------------------------------------------------------------------------------------------- | --------------------------------------------: |
-| Checking                                                                                                             |                                          0.93 |
+| Checking                                                                                                             |                                          0.94 |
 | Credit card                                                                                                          |                                          0.71 |
 | Saving                                                                                                               |                                          0.80 |
 | Employer-provided retirement account (such as a 401k, 403(b) or Thrift Savings Plan (TSP), etc.)                     |                                          0.16 |
 | Prepaid card                                                                                                         |                                          0.01 |
 | Individual retirement account not provided by an employer (such as an IRA, Keogh, SEP, or any other retirement fund) |                                          0.28 |
-| Cash management, money market, health savings account (HSA), and/or certificate of deposit (CD)                      |                                          0.24 |
+| Cash management, money market, health savings account (HAS), and/or certificate of deposit (CD)                      |                                          0.24 |
 | Brokerage account, annuity, profit sharing/stock plan, and/or 529 plan                                               |                                          0.36 |
 | Employer-provided traditional pension or cash balance plan                                                           |                                          0.02 |
 | Other financial assets or accounts                                                                                   |                                          0.22 |
@@ -167,8 +171,8 @@ responses and participants’ linked accounts.
 In order to construct the transactional data set typically used for
 analysis, we apply cleaning criteria to the collected data. We also
 apply additional definitions and inclusion thresholds for certain
-metrics, such as minimum account activity thresholds (see the metric
-definitions table for more ).
+metrics, such as minimum account activity thresholds (see Table 3 for
+more).
 
 To be included in the Pulse transactional data set, a financial account
 must be actively linked:
@@ -254,52 +258,51 @@ the tables below).
 
 | Household Income  | Online/mobile banked survey sample | Liquid Account Inflows/Outflows Sample | Liquid Account Balances Sample | Credit Card Sample |
 | :---------------- | ---------------------------------: | -------------------------------------: | -----------------------------: | -----------------: |
-| Less than $30,000 |                               0.18 |                                   0.16 |                           0.18 |               0.09 |
-| $30,000 - $59,999 |                               0.25 |                                   0.25 |                           0.22 |               0.21 |
-| $60,000 - $99,999 |                               0.28 |                                   0.26 |                           0.26 |               0.32 |
-| $100,000 or more  |                               0.30 |                                   0.33 |                           0.33 |               0.38 |
+| Less than $30,000 |                               0.15 |                                   0.12 |                           0.14 |               0.05 |
+| $30,000 - $59,999 |                               0.22 |                                   0.23 |                           0.21 |               0.20 |
+| $60,000 - $99,999 |                               0.30 |                                   0.30 |                           0.28 |               0.35 |
+| $100,000 or more  |                               0.33 |                                   0.35 |                           0.36 |               0.41 |
 
-| Gender   | Online/mobile banked survey sample | Liquid Account Inflows/Outflows Sample | Liquid Account Balances Sample | Credit Card Sample |
-| :------- | ---------------------------------: | -------------------------------------: | -----------------------------: | -----------------: |
-| Female   |                               0.59 |                                   0.59 |                           0.56 |               0.51 |
-| Male     |                               0.41 |                                   0.41 |                           0.44 |               0.49 |
+| Gender | Online/mobile banked survey sample | Liquid Account Inflows/Outflows Sample | Liquid Account Balances Sample | Credit Card Sample |
+| :----- | ---------------------------------: | -------------------------------------: | -----------------------------: | -----------------: |
+| Female |                               0.59 |                                   0.55 |                           0.54 |               0.51 |
+| Male   |                               0.41 |                                   0.45 |                           0.46 |               0.49 |
 
 | Race/Ethnicity | Online/mobile banked survey sample | Liquid Account Inflows/Outflows Sample | Liquid Account Balances Sample | Credit Card Sample |
 | :------------- | ---------------------------------: | -------------------------------------: | -----------------------------: | -----------------: |
-| Asian          |                               0.06 |                                   0.07 |                           0.09 |               0.11 |
-| Black          |                               0.05 |                                   0.06 |                           0.07 |               0.02 |
-| Latinx         |                               0.18 |                                   0.18 |                           0.19 |               0.15 |
-| White          |                               0.65 |                                   0.66 |                           0.61 |               0.66 |
-| Other          |                               0.01 |                                   0.01 |                           0.00 |                 NA |
-| Multiple       |                               0.04 |                                   0.02 |                           0.03 |               0.05 |
+| Asian          |                               0.07 |                                   0.07 |                           0.10 |               0.10 |
+| Black          |                               0.05 |                                   0.06 |                           0.06 |               0.01 |
+| Latinx         |                               0.17 |                                   0.18 |                           0.18 |               0.16 |
+| Multiple       |                               0.04 |                                   0.02 |                           0.03 |               0.06 |
+| Other          |                               0.01 |                                   0.01 |                           0.01 |               0.01 |
+| White          |                               0.66 |                                   0.65 |                           0.61 |               0.66 |
 | NA             |                               0.00 |                                     NA |                           0.00 |                 NA |
 
 | Education Level             | Online/mobile banked survey sample | Liquid Account Inflows/Outflows Sample | Liquid Account Balances Sample | Credit Card Sample |
 | :-------------------------- | ---------------------------------: | -------------------------------------: | -----------------------------: | -----------------: |
-| Less than high school       |                               0.03 |                                   0.02 |                           0.03 |               0.01 |
-| High school                 |                               0.10 |                                   0.09 |                           0.10 |               0.07 |
-| Some college                |                               0.36 |                                   0.33 |                           0.35 |               0.30 |
-| Bachelor’s degree or higher |                               0.51 |                                   0.56 |                           0.53 |               0.62 |
+| Less than high school       |                               0.02 |                                   0.02 |                           0.02 |               0.00 |
+| High school                 |                               0.10 |                                   0.08 |                           0.08 |               0.07 |
+| Some college                |                               0.35 |                                   0.30 |                           0.32 |               0.28 |
+| Bachelor’s degree or higher |                               0.53 |                                   0.60 |                           0.58 |               0.64 |
 
 | Age Group   | Online/mobile banked survey sample | Liquid Account Inflows/Outflows Sample | Liquid Account Balances Sample | Credit Card Sample |
 | :---------- | ---------------------------------: | -------------------------------------: | -----------------------------: | -----------------: |
-| 18-25       |                               0.10 |                                   0.12 |                           0.12 |               0.12 |
-| 26-35       |                               0.25 |                                   0.24 |                           0.27 |               0.28 |
-| 36-49       |                               0.32 |                                   0.32 |                           0.30 |               0.32 |
-| 50-64       |                               0.22 |                                   0.20 |                           0.20 |               0.19 |
-| 65 and over |                               0.11 |                                   0.12 |                           0.11 |               0.10 |
+| 18-25       |                               0.08 |                                   0.10 |                           0.10 |               0.10 |
+| 26-35       |                               0.21 |                                   0.21 |                           0.23 |               0.25 |
+| 36-49       |                               0.34 |                                   0.34 |                           0.32 |               0.37 |
+| 50-64       |                               0.23 |                                   0.19 |                           0.21 |               0.18 |
+| 65 and over |                               0.14 |                                   0.16 |                           0.14 |               0.10 |
 
 | Currently Working | Online/mobile banked survey sample | Liquid Account Inflows/Outflows Sample | Liquid Account Balances Sample | Credit Card Sample |
 | :---------------- | ---------------------------------: | -------------------------------------: | -----------------------------: | -----------------: |
-|   No              |                               0.34 |                                   0.33 |                           0.35 |               0.23 |
-|   Yes             |                               0.66 |                                   0.67 |                           0.65 |               0.77 |
+| No                |                               0.32 |                                   0.29 |                           0.31 |               0.17 |
+| Yes               |                               0.68 |                                   0.71 |                           0.69 |               0.83 |
 
 | Financial Health Tier | Online/mobile banked survey sample | Liquid Account Inflows/Outflows Sample | Liquid Account Balances Sample | Credit Card Sample |
 | :-------------------- | ---------------------------------: | -------------------------------------: | -----------------------------: | -----------------: |
-| Healthy               |                               0.29 |                                   0.29 |                           0.30 |               0.35 |
-| Coping                |                               0.56 |                                   0.54 |                           0.53 |               0.60 |
-| Vulnerable            |                               0.15 |                                   0.16 |                           0.15 |               0.03 |
-| NA                    |                               0.00 |                                   0.01 |                           0.02 |               0.01 |
+| Healthy               |                               0.33 |                                   0.35 |                           0.38 |               0.39 |
+| Coping                |                               0.55 |                                   0.54 |                           0.52 |               0.56 |
+| Vulnerable            |                               0.12 |                                   0.11 |                           0.10 |               0.04 |
 
 ## V. Analytical Decisions
 
@@ -351,14 +354,14 @@ common.
 
 ## VI. Transactional Metric Definitions
 
-We typically use specific transactional “metrics” to analyze trends in
+We typically use specific transacitonal “metrics” to analyze trends in
 the Pulse transactional dataset. These metrics align with the
 transactional subsamples described in section IV. We describe the
 definitions of the most commonly used metrics in Table 3.
 
 *Table 3. Definitions of Metrics*
 
-<img src="https://github.com/financialhealthnetwork/pulse-transactional-methodology-public-/blob/main/pic4.png" width="1000" />
+<img src="https://github.com/financialhealthnetwork/pulse-transactional-methodology-public-/blob/main/pic4.png.PNG" width="1000" />
 
 ## VII. Study Limitations
 
